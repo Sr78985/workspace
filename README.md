@@ -6,8 +6,9 @@ Repositório principal para organização de arquivos, estudos e prática com te
 
 - terminal/
   - anotacoes/
+  - projetos/
   - scripts/
-  - treinos/
+  - testes/
 
 ## 🎯 Objetivo
 
