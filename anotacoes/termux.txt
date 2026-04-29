@@ -1,0 +1,70 @@
+🖥️ Trilha prática: dominar o terminal (usando Termux)
+
+🟢 Fase 1 — Sobrevivência (base real)
+Aqui você aprende a não depender de interface gráfica.
+
+📁 Arquivos e pastas
+
+ls → ver arquivos
+cd → entrar em pastas
+pwd → ver onde você está
+cp → copiar
+mv → mover/renomear
+rm → apagar
+
+💡 Objetivo: não se perder no sistema.
+
+🟡 Fase 2 — Controle do sistema
+Aqui você começa a “sentir o poder” do terminal.
+
+ps → ver processos rodando
+top → ver consumo do sistema
+kill → matar processos
+chmod → permissões (isso é MUITO importante)
+whoami → usuário atual
+
+💡 Objetivo: entender o que está rodando no seu celular.
+
+🔵 Fase 3 — Rede (parte que conecta tudo)
+Isso aqui já abre portas pra cibersegurança depois.
+
+ping → testar conexão
+curl → acessar sites via terminal
+ip a (ou equivalente no Termux)
+netstat (quando disponível)
+
+💡 Objetivo: entender como o celular fala com a internet.
+
+🟣 Fase 4 — Automação (onde fica interessante de verdade)
+Aqui você começa a usar terminal como ferramenta inteligente
+
+criar .sh scripts
+
+rodar vários comandos em sequência
+
+automatizar tarefas
+
+Exemplo simples:
+
+
+Bash
+#!/bin/bash
+echo "Atualizando sistema..."
+pkg update -y && pkg upgrade -y
+
+
+💡 Objetivo: fazer o terminal trabalhar por você.
+
+🔴 Fase 5 — Mentalidade de terminal
+Isso aqui é o “nível avançado real”:
+
+você para de pensar em app
+começa a pensar em comando
+resolve problema quebrando ele em etapas
+usa ferramentas pequenas juntas
+
+⚠️ Verdade importante
+
+Dominar terminal não é decorar comandos.
+É isso aqui:
+“eu sei o que quero fazer → sei quais ferramentas existem → combino elas”
